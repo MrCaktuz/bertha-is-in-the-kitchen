@@ -1,0 +1,35 @@
+{
+  "name": "berthaisinthekitchen",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "0.0.0-experimental.a76a2ee7a9a66bc0233e678ca062086c34855a5c",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.a76a2ee7a9a66bc0233e678ca062086c34855a5c",
+    "@strapi/plugin-i18n": "0.0.0-experimental.a76a2ee7a9a66bc0233e678ca062086c34855a5c",
+    "@strapi/plugin-cloud": "0.0.0-experimental.a76a2ee7a9a66bc0233e678ca062086c34855a5c",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2df93475-77ce-409f-966b-f8023bc1ff71"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

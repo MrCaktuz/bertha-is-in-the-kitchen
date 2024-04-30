@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_compo_test_compo_tests",
+  "info": {
+    "displayName": "ingredients",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "quantity": {
+      "type": "decimal",
+      "required": true
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "g",
+        "Kg",
+        "L",
+        "ml",
+        "cl",
+        "p"
+      ],
+      "default": "p"
+    }
+  }
+}
